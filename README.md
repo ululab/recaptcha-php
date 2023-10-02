@@ -72,7 +72,7 @@ Inclusione classe
 use Recaptcha;
 ```
 
-Inizilizzazione istanza Recaptcha con chiamata api in corso
+Inizializzazione istanza Recaptcha con chiamata api in corso
 ```php
 $recaptcha = Recaptcha::verify( 'secret-key-8W37g4aDhu2OZ5L', 'token-frontend-yr14BBt4u6mJb0R');
 ```
