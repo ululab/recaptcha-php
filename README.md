@@ -3,7 +3,7 @@ Classe helper php per verifica recaptcha di Google
 
 Using in Laravel:
 ```bash
-    Nel file composer.json, includere la classe helber globale
+    Nel file composer.json, includere la classe helper globale
 
     "autoload": {
         ...,
