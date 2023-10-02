@@ -3,7 +3,15 @@ Classe helper php per verifica recaptcha di Google
 
 Using in Laravel:
 ```bash
-$ npm install @uluab/recaptcha-js
+    Nel file composer.json, includere la classe helber globale
+
+    "autoload": {
+        ...,
+        "files": [
+          ...,
+          "app/Helpers/Recaptcha.php"
+        ]
+    }
 ```
 
 ```php
